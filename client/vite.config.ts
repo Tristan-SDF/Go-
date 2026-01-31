@@ -5,9 +5,8 @@ import { defineConfig, loadEnv } from "vite";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
-    base: "/Go-/", // Set the base path for the application
     build: {
-      outDir: "dist",
+      outDir: "build",
     },
     define: {
       "process.env.API_KEY": JSON.stringify(env.API_KEY),
