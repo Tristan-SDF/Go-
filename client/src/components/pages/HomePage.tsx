@@ -43,31 +43,31 @@ const HomePage = () => {
     <div>
       <div className={styles.flagBar}>
         <img
-          src="/logo.png"
+          src="./logo.png"
           alt="Logo"
           aria-label="Platform logo"
           className={styles.logo}
         />
         <img
-          src="/korea.png"
+          src="./korea.png"
           alt="Flag 1"
           aria-label="Korean flag"
           className={styles.flag}
         />
         <img
-          src="/japan.png"
+          src="./japan.png"
           alt="Flag 2"
           aria-label="Japanese flag"
           className={styles.flag}
         />
         <img
-          src="/mongolia.png"
+          src="./mongolia.png"
           alt="Flag 3"
           aria-label="Mongolian flag"
           className={styles.flag}
         />
         <img
-          src="/china.png"
+          src="./china.png"
           alt="Flag 4"
           aria-label="Chinese flag"
           className={styles.flag}
@@ -100,7 +100,7 @@ const HomePage = () => {
             aria-label="Demo Video"
             className={styles.video}
           >
-            <source src="/demo.mp4" type="video/mp4" />
+            <source src="./demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

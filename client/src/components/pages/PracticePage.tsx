@@ -474,7 +474,7 @@ const PracticePage = () => {
       {/* Add timer display with pause button */}
       <div className={styles['timer-container']}>
         <img 
-          src={"/pause.png"} 
+          src={"./pause.png"} 
           alt="Pause"
           onClick={pauseLesson}
           style={{
